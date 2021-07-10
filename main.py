@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello I like to make AI Apps'
+    return 'Hello this is a test for a basic Flask Apps'
 
 @app.route('/html')
 def html():
